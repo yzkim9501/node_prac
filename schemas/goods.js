@@ -23,4 +23,4 @@ const goodsSchema = new Schema({
   }
 });
 
-module.exports = mongoose.model("Goods", goodsSchema);
+module.exports = mongoose.model("Goods", goodsSchema);//Goods라는 이름으로 schema를 생성해서 밖에서도 가져갈 수 잇도록 표기해주는 것.
